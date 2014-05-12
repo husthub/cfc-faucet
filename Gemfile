@@ -44,14 +44,16 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'execjs'
 gem 'haml-rails'
-gem 'therubyracer'
+#gem 'therubyracer', '>= 0.11.0beta1'
 gem 'secret_token_replacer', :git => 'git://github.com/digineo/secret_token_replacer.git'
 gem 'pg', group: :postgresql
-gem 'mysql', group: :mysql
+gem 'mysql2', group: :mysql
 gem 'whenever'
 gem 'foundation-rails'
 gem "recaptcha", :require => "recaptcha/rails"
+gem 'adscaptcha'
 gem 'dnsbl-client'
 gem 'rack-canonical-host'
 gem 'will_paginate'

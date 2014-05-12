@@ -1,0 +1,14 @@
+win7 不使用 therubyracer ，使用 execjs
+
+把 config.yml 和 database.yml 文件内容设置好
+用下面命令安装 需要的 gem
+bundle install --without mysql postgresql
+
+然后 
+rake about 
+bundle exec rake db:migrate
+bundle exec rails server
+
+最后需要执行数据初始化操作 才能使用：
+bundle exec rake update_state:loop --silent
+bundle exec rake fulfill --silent
