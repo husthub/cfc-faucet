@@ -9,6 +9,9 @@ captcha: true
 recaptcha:
   public_key: YOUR RECAPTCHA PUBLIC KEY
   private_key: YOUR RECAPTCHA PRIVATE KEY
+  captcha_id: ID
+donation_address: 
+donation_currency: PeerCoin
 tracking_code: >
   <!-- REPLACE WITH YOUR TRAFFIC TRACKING CODE -->
 canonical_host: 
