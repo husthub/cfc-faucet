@@ -8,7 +8,7 @@ class MainController < ApplicationController
     @coin_request.attributes = params[:coin_request].permit(:address) if params[:coin_request]
     if request.post? or request.put?
       if FaucetConfig["captcha"]
-        unless verify_recaptcha(model: @coin_request)
+        unless verify_adscaptcha(model: @coin_request)
           flash.delete(:recaptcha_error)
           return
         end

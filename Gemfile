@@ -52,6 +52,7 @@ gem 'mysql', group: :mysql
 gem 'whenever'
 gem 'foundation-rails'
 gem "recaptcha", :require => "recaptcha/rails"
+gem 'adscaptcha'
 gem 'dnsbl-client'
 gem 'rack-canonical-host'
 gem 'will_paginate'

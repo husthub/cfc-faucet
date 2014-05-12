@@ -37,7 +37,7 @@
             = f.text_field :address
           - if FaucetConfig["captcha"]
             .captcha
-              = recaptcha_tags ssl: request.ssl?, ajax: true
+              = adscaptcha_tags ssl: request.ssl?, ajax: true
           .submit
             = f.submit "Receive #{currency.pluralize}"
       %p.limit-notice
