@@ -5,7 +5,7 @@ development:
   timeout: 5000
 production:
   adapter: mysql2
-  database: coin_faucet
+  database: cfc_faucet
   host: localhost
-  username: coin_faucet
-  password: password
+  username: 
+  password: 

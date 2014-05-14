@@ -1,10 +1,10 @@
-ppcoind_path: ppcoind
+ppcoind_path: coffeecoind
 ppcoind_account: ""
-currency: peercoin
-coin_url: https://github.com
-amount_per_request: 0.1
-minimum_confirmations: 3
-request_time_frame_duration: 1 hour
+currency: coffeecoin
+coin_url: https://bitcointalk.org/index.php?topic=596562.0
+amount_per_request: 5
+minimum_confirmations: 5
+request_time_frame_duration: 4 hour
 time_between_request_fulfilling: 30 minutes
 secret: GENERATE A SECRET WITH "rake secret" AND PASTE IT HERE
 captcha: true
@@ -13,9 +13,9 @@ recaptcha:
   private_key: YOUR RECAPTCHA PRIVATE KEY
   captcha_id: ID
 donation_address: 
-donation_currency: PeerCoin
+donation_currency: CoffeeCoin
 tracking_code: >
   <!-- REPLACE WITH YOUR TRAFFIC TRACKING CODE -->
 canonical_host: 
 donation_request_url: 
-explorer_url: http://ppc.cryptocoinexplorer.com/address/{{ADDRESS}}
+explorer_url: 
